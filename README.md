@@ -1,3 +1,11 @@
+##Code Your About Page
+###STEP 8 OF 10
+- Copy & Paste Header & Footer
+- Added Mission Section
+- Added Map Section place holder
+- Added Contact Section
+- Added comments
+
 ##Finish Coding Your Home Page HTML
 ###STEP 7 OF 10
 - Finish Coding Home Page HTML
