@@ -1,3 +1,11 @@
+##Code Your FAQ Page
+###STEP 9 OF 10
+- Copy & Paste Header & Footer
+- Added Content
+- Added Comments
+- Added Classes
+- Added Favicon
+
 ##Code Your About Page
 ###STEP 8 OF 10
 - Copy & Paste Header & Footer
