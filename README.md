@@ -1,3 +1,9 @@
+##Style Your Layout with Flex Box
+###STEP 2 OF 7
+- Applied flexbox model to all sections, wrappers, and content divs.
+- Used PSD file as guide
+- Used Borders as guides
+
 ##Code Your FAQ Page
 ###STEP 9 OF 10
 - Copy & Paste Header & Footer
