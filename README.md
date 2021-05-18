@@ -1,3 +1,9 @@
+##Format your mobile layout
+###STEP 3 OF 7
+- Set Width using percentage
+- Set Margins and Padding with pixels
+- handled browser default margins
+
 ##Style Your Layout with Flex Box
 ###STEP 2 OF 7
 - Applied flexbox model to all sections, wrappers, and content divs.
