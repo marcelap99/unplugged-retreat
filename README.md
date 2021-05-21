@@ -1,3 +1,8 @@
+##Add Break Points Write Code for Tablets
+###STEP 5 OF 7
+- Set CSS for Home Page, About, & Faq
+- Added Flex-basis to CSS elements
+
 ##Format your mobile layout
 ###STEP 3 OF 7
 - Set Width using percentage
