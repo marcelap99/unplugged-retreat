@@ -1,3 +1,10 @@
+##Write Your Desktop Styles
+###STEP 6 OF 7
+- Added Desktop layout Styles
+  - Home Page
+  - Faq
+  - About
+
 ##Add Break Points Write Code for Tablets
 ###STEP 5 OF 7
 - Set CSS for Home Page, About, & Faq
