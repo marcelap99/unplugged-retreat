@@ -1,3 +1,10 @@
+##Implement Your Text Styles
+###STEP 1 OF 3
+- Added global styles at top of CSS file
+  - Set up google font links
+  - Global font size 16px = 1em
+  - Referred to PSD file
+
 ##Write Your Desktop Styles
 ###STEP 6 OF 7
 - Added Desktop layout Styles
