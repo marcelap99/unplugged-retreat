@@ -1,9 +1,15 @@
+##Add Your Remaining Styles
+###STEP 2 OF 3
+- Added styling to homepage form
+- Added styles to remaining pages
+- All pages in all break points have layouts and fonts and basic styles in place.
+
 ##Implement Your Text Styles
 ###STEP 1 OF 3
 - Added global styles at top of CSS file
-  - Set up google font links
-  - Global font size 16px = 1em
-  - Referred to PSD file
+- Set up google font links
+- Global font size 16px = 1em
+- Referred to PSD file
 
 ##Write Your Desktop Styles
 ###STEP 6 OF 7
