@@ -1,3 +1,9 @@
+##Adjust Images in Photo Shop
+###STEP 3 OF 5
+- reformatted images in assets folder to 72 ppi
+- reformatted images to jpg
+- stored reformatted images in the images folder.
+
 ##Add Your Remaining Styles
 ###STEP 2 OF 3
 - Added styling to homepage form
