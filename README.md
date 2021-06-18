@@ -1,3 +1,10 @@
+##Responsify Those Images
+###STEP 4 OF 5
+- reformatted and resized images in image folder
+- re-took map image since quality was bad
+- reformatted and resized divs and sections to accommodate images.
+- re-adjusted some fonts based on appearance in comparison to the your codes appearance on the same browser.
+
 ##Adjust Images in Photo Shop
 ###STEP 3 OF 5
 - reformatted images in assets folder to 72 ppi

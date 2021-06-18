@@ -143,11 +143,11 @@ p {
 }
 
 img {
-
+ width: 100%;
 }
 
 figure {
-
+ margin: 0;
 }
 
 address {
@@ -156,22 +156,11 @@ address {
  font-style: italic;
 }
 
-/* address {
- font-style: normal;
-} */
-
    .content-wrapper {
      width: 95%;
      margin: 50px 0;
      border:1px solid yellow;
    }
-
-
-img{
-  height:50px;
-  width:100px;
-}
-
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -199,7 +188,18 @@ header .content-wrapper{
   margin: 0;
 }
 
+header figure {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+header figure img{
+  height:40px;
+  width:215px;
+}
 
 
 .header-divider{
@@ -224,6 +224,10 @@ header nav ul {
   /* justify-content:center; */
   width: 100%;
   align-items:center;
+}
+
+header nav ul li{
+  font-size:1.3em;
 }
 
 
@@ -284,12 +288,26 @@ div#myFooterContent.footer-content{
 
 /* Hero Area */
 
-.hero-area {
+section.hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   height:596px;
+  background: url("../img/jake-melara-30679-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-color:#225c26;
 }
+
+div#heroDiv.content-wrapper{
+  width:80%;
+}
+div#heroDiv.content-wrapper h1{
+  letter-spacing:1.5px;
+}
+
+
 
 /* Aside FORM*/
 
@@ -332,13 +350,14 @@ input[type=button] {
   width:85%;
 }
 
-/* Features */
 
 .features {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  height:1444px;
+    background: url(../img/rawpixel-800820-unsplash1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .features h2 {
@@ -367,6 +386,10 @@ input[type=button] {
 }
 
 /* Reviews */
+.content-wrapper{
+  margin:0;
+
+}
 
 .reviews {
   background-color: #2a423a;
@@ -377,7 +400,8 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin-top:15px;
+  margin-bottom:15px;
   line-height: 1;
 }
 
@@ -404,16 +428,24 @@ input[type=button] {
 
    section.mission div.content-wrapper{
      width:85%;
+     margin-top:20px;
+     margin-bottom:20px
    }
 
    section.map{
-     height:450px;
+     height:500px;
      background-color:#c9e5f5;
      color:black;
+     background-image:url("../img/mapScreenShotMobile.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
    }
 
    section.contact-section div.content-wrapper{
      width:85%;
+     margin-top:20px;
+     margin-bottom:20px;
    }
 
    .contact-section {
@@ -557,8 +589,8 @@ input[type=button] {
  @media only screen and (min-width: 768px) {
      /* General styles */
      .content-wrapper {
-         max-width: 640px;
-         margin: 100px 0;
+         max-width: 95%;
+         /* margin: 100px 0; */
      }
      h2 {
   font-size: 2.25em;
@@ -579,6 +611,15 @@ input[type=button] {
     header .content-wrapper {
       width: 100%;
       justify-content: space-between;
+    }
+
+    header figure{
+      justify-content:flex-start;
+    }
+
+    header figure img{
+      width:200px;
+      height:40px;
     }
 
     header nav {
@@ -602,13 +643,10 @@ input[type=button] {
 
     section.hero-area{
       height:600px;
-      background-color:#225c26;
     }
 
   .hero-area h1 {
-   /* font-family: 'Poppins', sans-serif; */
    font-size: 3em;
-   /* line-height: 1; */
    letter-spacing:2px;
    margin: 0;
     }
@@ -617,21 +655,16 @@ input[type=button] {
       margin: 0px -20px 0px 20px;
     }
 
-
-
    /* --- ASIDE TABLET--- */
 
-   aside{
-     height:250px;
 
-   }
    aside h3{
      font-family: 'Open Sans', sans-serif;
    }
 
    aside .content-wrapper {
      height:85%;
-     margin: 20px 0;
+     margin: 30px 0;
      display: flex;
      justify-content: space-between;
      flex-flow: row wrap;
@@ -667,15 +700,31 @@ input[type=button] {
  }
 
   /* --- REVIEWS TABLET  --- */
+  .reviews{
+    height:auto;
+  }
 
+  .reviews article figure, .reviews article div {
+    width: 48%;
+    height:300px;;
+}
   section.reviews{
     height:500px;
   }
 
+  section.reviews #reviewsWrapper article figure img{
+    height:100%;
+  }
+
   section.reviews div.content-wrapper{
 
-    margin:20px auto;
+  margin:20px auto;
+
   }
+
+  #reviewsWrapper {
+    width: 90%;
+}
 
  .reviews article {
    display: flex;
@@ -687,7 +736,10 @@ input[type=button] {
  }
 
  .reviews h2 {
+   margin-top:25px;
+   margin-bottom:22px;
    width: 85%;
+   line-height:1.1;
    font-family: 'Open Sans', sans-serif;
  }
 
@@ -762,6 +814,12 @@ footer address{
      font-size:1em;
    }
 
+   section.map{
+     height:500px;
+     background-image:url("../img/mapScreenShotTablet.jpg");
+   }
+
+
    .contact-section .content-wrapper h2 {
      width: 80%;
    }
@@ -820,7 +878,7 @@ div .addressDiv{
 
   h3,
   h4 {
-      font-size: 1.875em;
+      font-size: 2.3em;
   }
 
   p {
@@ -833,34 +891,77 @@ div .addressDiv{
   }
    section{
      border:1px solid white;
-     width:98%;
+     /* width:98%; */
    }
    aside{
      border:1px solid red;
-     width:98%;
-     height:255px;
+     height:400px;
+   }
+
+   li{
+     font-weight:800;
+   }
+
+
+   /* ----HEADER DESKTOP---- */
+
+   section.hero-area{
+     height:800px;
    }
 
    .content-wrapper {
-       max-width: 970px;
+       max-width: 70%;
        padding:20px;
        margin:20px auto;
    }
 
-   div#headerWrapper.content-wrapper{
+   header div#headerWrapper.content-wrapper{
      height:100px;
+      width:70%;
    }
 
-   /* hero section */
+
+   header figure{
+     width:50%;
+     justify-content:flex-start;
+   }
+
+   header figure img{
+     width:288px;
+     height:51px;
+     margin-left:20px;
+   }
+
+   header nav{
+     justify-content: flex-end;
+     width:50%;
+   }
+
+   header nav ul{
+     width:55%;
+     justify-content:space-around;
+   }
+
+   header nav ul li{
+     font-size:1.5em;
+   }
+
+   /* HERO SECTION DESKTOP */
 
    div#heroDiv{
      height:500px;
    }
+   div#heroDiv.content-wrapper{
+     width:70%;
+   }
 
   .hero-area h1 {
-   font-size: 3.75em;
-   width: 60%;
-   margin-left:20px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 3.75em;
+    width: 60%;
+    margin-left: 20px;
+    margin-top:125px;
 }
 
   aside .content-wrapper{
@@ -868,17 +969,19 @@ div .addressDiv{
     padding:0;
     height:255px;
     justify-content: space-around;
-    justify-content:center;
+    /* justify-content:center; */
   }
 
   aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 30%;
+      width: 25%;
       /* margin:10px 20px; */
     }
 
     .form-description p {
     font-size: 1.125em;
+    width: 288px;
+    height: 69px;
   }
 
   div.myForm.form{
@@ -889,9 +992,6 @@ div .addressDiv{
     padding:0;
   }
 
-  div.myForm.form-description{
-    margin-right:35px;
-  }
 
 
   input{
@@ -903,34 +1003,42 @@ div .addressDiv{
     font-size:18px;
   }
 
+  input[type=text]{
+    width: 340px;
+    height: 58px;
+  }
+
+  input[type=button]{
+    width:343px;
+    height:58px;
+  }
 
 
 /* FEATURES */
 
 section.features{
   padding:0;
-
+  height:auto;
 }
 
   div#featuresWrapper.content-wrapper{
-    margin:0;
+    margin:50px auto;
     padding:0;
-    height:100%;
-    width:100%;
+    max-width:960px;
   }
 
-  .features h2{
-    margin-left:220px;
-     width: 90%;
+  section.features div.content-wrapper h2{
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
   }
 
   .features-items{
     border:1px solid red;
   }
 
-  article{
-    border:1px solid green;
-  }
+
 
   .features article {
       flex-basis: 33%;
@@ -940,11 +1048,34 @@ section.features{
 
 
   /* Reviews */
+
+  section.reviews{
+    height:950px;
+  }
+
+  #reviewsWrapper{
+    margin:125px auto;
+    max-width:1260px;
+  }
+
   section.reviews div.content-wrapper {
     margin: 0;
 }
 
+  .reviews h2{
+    padding-bottom: 50px;
+    width: 85%;
+    margin-bottom: 40px;
+    line-height: 1;
+    font-size: 2.25em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
 
+  .reviews article{
+    height:450px;
+    border:1px solid green;
+  }
 
   .reviews article h3{
     letter-spacing:1.5px;
@@ -960,6 +1091,10 @@ section.features{
     width: 42%;
   }
 
+  .reviews article figure, .reviews article div{
+    height:450px;
+  }
+
   /* footer */
 
   footer h4 {
@@ -970,14 +1105,24 @@ section.features{
 
   .mission .content-wrapper{
     height:441px;
-    width:85%;
     padding:40px;
   }
 
+  section.mission div.content-wrapper{
+    width:90%;
+  }
+
+  h2{
+    font-family: 'Open Sans', sans-serif;
+  }
   .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
       font-size: 2.9em;
+      margin-left:20px;
+  }
+
+  .contact-section .content-wrapper h2{
+    margin-left: -100px;
   }
 
   .contact-content h4 {
@@ -990,8 +1135,12 @@ section.features{
 
   section.map{
     width:100%;
-    height:447px;
     background-color:#34b7eb;
+    background-image: url("../img/mapScreenShotDesktop.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
   }
 
   .contact-section .content-wrapper {
@@ -1000,21 +1149,26 @@ section.features{
       justify-content: center;
       align-items: center;
       height: 393px;
-      width: 85%;
+
+  }
+
+  section.contact-section div.content-wrapper{
+  width:90%;
   }
 
   address.contact-content{
+    width:95%;
     border:1px solid white;
     display:flex;
-    margin-left: -75px;
-    margin-right: 20px;
+
   }
 
   .addressDiv{
     border:1px solid red;
-    height:200px;
+    height:180px;
     width:400px;
   }
+
 
 
   /* FAQ PAGE*/
@@ -1022,10 +1176,11 @@ section.features{
 
   .faq .content-wrapper {
     justify-content: space-around;
+    width:90%;
   }
 
   .faq h2{
-    margin-left:32.5px;
+    margin-left:22px;
     width: 100%;
     font-size: 3em;
   }
