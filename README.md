@@ -1,3 +1,14 @@
+####Make Your Map Responsive
+###STEP 3 OF 8
+- reformatted Tablet and Desktop CSS code using padding-bottom percentages.
+- reviewed embedresponively.com site for short cut
+
+###STEP 2 OF 8
+- grabbed google maps iframe for address
+- inserted into figure element as parent container
+- applied styles to figure and iframe
+- for About page Mobile first
+
 ##Grab Your Map iframe Code and Apply to Your Site
 ###STEP 2 OF 8
 - grabbed google maps iframe for address

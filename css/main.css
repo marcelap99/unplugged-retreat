@@ -824,11 +824,9 @@ footer address{
      font-size:1em;
    }
 
-   section.map{
-     height:500px;
-     background-image:url("../img/mapScreenShotTablet.jpg");
+   .map figure{
+     padding-bottom:75%;
    }
-
 
    .contact-section .content-wrapper h2 {
      width: 80%;
@@ -1146,11 +1144,15 @@ section.features{
   section.map{
     width:100%;
     background-color:#34b7eb;
-    background-image: url("../img/mapScreenShotDesktop.jpg");
+    /* background-image: url("../img/mapScreenShotDesktop.jpg");
     background-position:center;
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover; */
 
+  }
+
+  .map figure{
+    padding-bottom:39.4%;
   }
 
   .contact-section .content-wrapper {
