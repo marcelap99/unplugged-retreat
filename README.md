@@ -1,3 +1,10 @@
+##Grab Your Map iframe Code and Apply to Your Site
+###STEP 2 OF 8
+- grabbed google maps iframe for address
+- inserted into figure element as parent container
+- applied styles to figure and iframe
+- for About page Mobile first
+
 ##Responsify Those Images
 ###STEP 4 OF 5
 - reformatted and resized images in image folder
