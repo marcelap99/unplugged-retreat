@@ -1,3 +1,10 @@
+####Adding Your Feature Icons with Font Awesome
+###STEP 5 OF 8
+- signed up for font awesome, used cdn.
+- added link given in kit to all html files.
+- inserted icon using i tag with each respective class name.
+- applied sytles to the icons.
+
 ####Make Your Map Responsive
 ###STEP 3 OF 8
 - reformatted Tablet and Desktop CSS code using padding-bottom percentages.
