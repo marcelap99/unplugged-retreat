@@ -1,3 +1,8 @@
+####Add Any Other Icons Your Site Needs
+###STEP 6 OF 8
+- added font awesome icons to social media div.
+- added styles to adjust width, height, font-size, etc.
+
 ####Adding Your Feature Icons with Font Awesome
 ###STEP 5 OF 8
 - signed up for font awesome, used cdn.

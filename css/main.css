@@ -142,6 +142,7 @@ p {
 
 }
 
+
 img {
  width: 100%;
 }
@@ -150,11 +151,7 @@ figure {
  margin: 0;
 }
 
-address {
-  font-size:1.125em;
-  line-height: 1.6;
- font-style: italic;
-}
+
 
    .content-wrapper {
      width: 95%;
@@ -245,12 +242,18 @@ footer p{
 }
 
 footer .content-wrapper{
-  width:55%;
-  margin:50px 0;
+  width:85%;
+  margin:25px 0;
 }
 
 footer .contact{
   margin-bottom:20px;
+}
+
+footer address p{
+  font-size:1.125em;
+  line-height: 0.5;
+ font-style: italic;
 }
 
 footer .social-icons{
@@ -263,6 +266,14 @@ footer .social-icons p{
   display:flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+    font-size: 1.3125em;
 }
 
 footer .copyright{
@@ -280,8 +291,10 @@ div#myFooterContent.footer-content{
   display:flex;
   flex-flow:column nowrap;
   justify-content:center;
-  align-items:center;
+  /* align-items:center; */
   text-align:center;
+  width:200px;
+  margin:5px auto;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -627,7 +640,7 @@ input[type=button] {
     }
 
     header .content-wrapper {
-      width: 100%;
+      width: 80%;
       justify-content: space-between;
     }
 
@@ -696,7 +709,7 @@ input[type=button] {
 
    /* --- FEATURES TABLET --- */
 
-  
+
    section.features div.content-wrapper h2 {
    font-family: 'Open Sans', sans-serif;
    width: 600px;
@@ -781,6 +794,7 @@ input[type=button] {
 
 
 div#myFooterContent.footer-content {
+    width:80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -799,8 +813,24 @@ footer address{
     margin-bottom: 40px;
   }
 
-  footer p {
+  footer address p {
       line-height: 1.285;
+  }
+
+  footer .social-icons p{
+    width:45px;
+    height:45px;
+    margin-top:25px;
+  }
+
+  footer .social-icons p i{
+    font-size:1.8em;
+  }
+
+  footer .contact, footer .social{
+    width:45%;
+    height:200px;
+    border:1px solid white;
   }
 
   footer .copyright {
@@ -960,6 +990,34 @@ div .addressDiv{
      font-size:1.5em;
    }
 
+
+   footer{
+     height:411px;
+   }
+
+   footer .content-wrapper{
+     padding:0;
+   }
+
+   div#myFooterContent.footer-content{
+     width:100%;
+     justify-content:space-between;
+     margin-top:100px;
+   }
+
+   footer .contact, footer .social{
+     width:35%;
+   }
+
+   footer .social-icons p i {
+    font-size: 1.3125em;
+}
+
+   footer .copyright {
+
+    margin: 90px auto -50px auto;
+}
+
    /* HERO SECTION DESKTOP */
 
    div#heroDiv{
@@ -980,16 +1038,16 @@ div .addressDiv{
 
   aside .content-wrapper{
     margin:0;
-    padding:0;
-    height:255px;
+    height:300px;
     justify-content: space-around;
-    /* justify-content:center; */
+
   }
 
   aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 25%;
-      /* margin:10px 20px; */
+    width: 28%;
+    height: 300px;
+    margin: 0 auto;
     }
 
     .form-description p {
@@ -1113,6 +1171,7 @@ section.features{
 
   footer h4 {
     font-size: 1.875em;
+    font-family: 'Open Sans', sans-serif;
   }
 
   /* --- ABOUT PAGE --- */
@@ -1150,10 +1209,7 @@ section.features{
   section.map{
     width:100%;
     background-color:#34b7eb;
-    /* background-image: url("../img/mapScreenShotDesktop.jpg");
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover; */
+
 
   }
 
