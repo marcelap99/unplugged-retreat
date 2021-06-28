@@ -97,7 +97,6 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
-  border:1px solid white;
   width:100%;
   display:flex;
   flex-flow:column;
@@ -156,7 +155,7 @@ figure {
    .content-wrapper {
      width: 95%;
      margin: 50px 0;
-     border:1px solid yellow;
+
    }
 
 /* -------------------- Base Header - Footer Styles -------------------- */
@@ -177,7 +176,6 @@ header{
 }
 
 header .content-wrapper{
-  border:1px solid yellow;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,7 +216,6 @@ header nav{
 header nav ul {
   display: flex;
   justify-content: space-around;
-  /* justify-content:center; */
   width: 100%;
   align-items:center;
 }
@@ -233,7 +230,6 @@ header nav ul li{
 footer{
   display:flex;
   flex-flow:column nowrap;
-  /* flex-direction:column; */
   height:310px;
 }
 
@@ -291,7 +287,6 @@ div#myFooterContent.footer-content{
   display:flex;
   flex-flow:column nowrap;
   justify-content:center;
-  /* align-items:center; */
   text-align:center;
   width:200px;
   margin:5px auto;
@@ -830,7 +825,7 @@ footer address{
   footer .contact, footer .social{
     width:45%;
     height:200px;
-    border:1px solid white;
+
   }
 
   footer .copyright {
@@ -934,11 +929,9 @@ div .addressDiv{
     padding: 15px 0;
   }
    section{
-     border:1px solid white;
-     /* width:98%; */
+
    }
    aside{
-     border:1px solid red;
      height:400px;
    }
 
@@ -1107,7 +1100,7 @@ section.features{
   }
 
   .features-items{
-    border:1px solid red;
+
   }
 
 
@@ -1146,7 +1139,7 @@ section.features{
 
   .reviews article{
     height:450px;
-    border:1px solid green;
+
   }
 
   .reviews article h3{
@@ -1210,7 +1203,6 @@ section.features{
     width:100%;
     background-color:#34b7eb;
 
-
   }
 
   .map figure{
@@ -1223,22 +1215,18 @@ section.features{
       justify-content: center;
       align-items: center;
       height: 393px;
-
+      max-width:80%;
   }
 
-  section.contact-section div.content-wrapper{
-  width:90%;
-  }
+
 
   address.contact-content{
-    width:95%;
-    border:1px solid white;
+    width:90%;
     display:flex;
 
   }
 
   .addressDiv{
-    border:1px solid red;
     height:180px;
     width:400px;
   }

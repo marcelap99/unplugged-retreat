@@ -1,3 +1,9 @@
+####Keep Going Until Everything Looks Great
+###STEP 7 OF 8
+- finished adding CSS to all pages.
+- removed all borders previously added to assist with layouts.
+- removed all ghost code.
+
 ####Add Any Other Icons Your Site Needs
 ###STEP 6 OF 8
 - added font awesome icons to social media div.
