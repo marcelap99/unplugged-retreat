@@ -1,3 +1,10 @@
+####Finish Your Project!
+###STEP 2 OF 3
+- all pages fully coded
+- all links operational
+- all responsive break points properly working
+- ready to ship it!
+
 ####Keep Going Until Everything Looks Great
 ###STEP 7 OF 8
 - finished adding CSS to all pages.
