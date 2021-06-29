@@ -1,3 +1,9 @@
+####Test Your Site with Chrome DevTools
+###STEP 2 OF 5
+- Tested the site using Google Chrome Dev tools, Inspector
+- Checked every page in every available responsive window available / view ports for different devices
+- made changes to css code in break points to remedy issues with layouts and format in various view ports
+
 ####Finish Your Project!
 ###STEP 2 OF 3
 - all pages fully coded
