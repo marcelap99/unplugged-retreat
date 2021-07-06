@@ -1,3 +1,10 @@
+####Test Your Site on Multiple Screen Sizes at Once
+###STEP 3 OF 5
+- forked into github mattkersley.com/responsive/(opens in a new tab)
+- down loaded zip file
+- pasted link to site into responsive tool.
+- inspected all pages in responsive tool to determine if site operational and layouts correct, responsive in various screen sizes.
+
 ####Test Your Site with Chrome DevTools
 ###STEP 2 OF 5
 - Tested the site using Google Chrome Dev tools, Inspector
